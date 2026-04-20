@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/page";
 import HeroSection from "./components/HeroSection/page";
 import Section from "./components/Section";
 import TempleCard from "./components/TempleCard/TempleCard";
+import SearchBar from "./components/SearchBar";
 
 const temples = [
   {
@@ -25,6 +26,7 @@ export default function Home() {
     <>
       <Navbar />
       <HeroSection />
+      <SearchBar />
       <Section title="🔥 Popular Temples" bg="bg-orange-50">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {temples.map((temple, index) => (
