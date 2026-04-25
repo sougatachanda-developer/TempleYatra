@@ -18,6 +18,7 @@
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
   --color-accentColor: var(--accent-color);
+  --color-textColor: var(--text-color);
   --font-bodyText: var(--font-Poppins);
   --font-heading: var(--font-cinzel);
 }
